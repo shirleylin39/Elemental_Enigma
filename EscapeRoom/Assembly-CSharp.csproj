@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/CameraMovement.cs" />
+    <Compile Include="Assets/SideScrolling.cs" />
+    <Compile Include="Assets/ClickabelObjects.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -4,13 +4,17 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraMovement.cs">
     <Files>
-      <File FileName="Assets/CameraMovement.cs" Line="32" Column="10" />
+      <File FileName="Assets/CameraMovement.cs" Line="18" Column="1" />
+      <File FileName="Assets/ClickabelObjects.cs" Line="21" Column="38" />
+      <File FileName="Assets/SideScrolling.cs" Line="11" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EscapeRoom">
-            <Node name="Assets" expanded="True" />
+          <Node name="EscapeRoom" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CameraMovement.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
