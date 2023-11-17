@@ -2,19 +2,22 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/oracleClick.cs">
     <Files>
-      <File FileName="Assets/CameraMovement.cs" Line="18" Column="1" />
-      <File FileName="Assets/ClickabelObjects.cs" Line="21" Column="38" />
-      <File FileName="Assets/SideScrolling.cs" Line="11" Column="6" />
+      <File FileName="Assets/CameraMovement.cs" />
+      <File FileName="Assets/ClickabelObjects.cs" />
+      <File FileName="Assets/SideScrolling.cs" />
+      <File FileName="Assets/highlightObject.cs" />
+      <File FileName="Assets/popUpMiddle.cs" Line="21" Column="41" />
+      <File FileName="Assets/hoodDoor.cs" Line="23" Column="5" />
+      <File FileName="Assets/gasToAtom.cs" Line="16" Column="6" />
+      <File FileName="Assets/oracleClick.cs" Line="25" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EscapeRoom" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="CameraMovement.cs" selected="True" />
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>

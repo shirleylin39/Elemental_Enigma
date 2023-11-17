@@ -17,7 +17,7 @@ public class SideScrolling : MonoBehaviour
     {
         float moveAmount = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         transform.position = new Vector2(
-            Mathf.Clamp(transform.position.x, -4.1619f, 25.618f),
+            Mathf.Clamp(transform.position.x, -2.5f, 15.5f),
             Mathf.Clamp(transform.position.y, 0, 0)
         );
         transform.Translate(moveAmount, 0, 0);
