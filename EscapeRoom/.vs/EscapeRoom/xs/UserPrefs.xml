@@ -2,19 +2,19 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/interfaceScripts/oracleClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StartEndScripts/replayButton.cs">
     <Files>
-      <File FileName="Assets/StartEndScripts/startButton.cs" />
-      <File FileName="Assets/interfaceScripts/oracleClick.cs" Line="51" Column="1" />
+      <File FileName="Assets/Scripts/StartEndScripts/replayButton.cs" Line="22" Column="45" />
+      <File FileName="Assets/Scripts/StartEndScripts/startButton.cs" Line="19" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EscapeRoom">
             <Node name="Assets" expanded="True">
-              <Node name="interfaceScripts" expanded="True" />
-              <Node name="lvl1Scripts" expanded="True" />
-              <Node name="StartEndScripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="StartEndScripts" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

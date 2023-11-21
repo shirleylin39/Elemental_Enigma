@@ -378,6 +378,7 @@
 "Assets/Scripts/generalScripts/popUpMiddle.cs"
 "Assets/Scripts/generalScripts/SideScrolling.cs"
 "Assets/Scripts/lvl1Scripts/hoodDoor.cs"
+"Assets/Scripts/StartEndScripts/replayButton.cs"
 "Assets/Scripts/StartEndScripts/startButton.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
