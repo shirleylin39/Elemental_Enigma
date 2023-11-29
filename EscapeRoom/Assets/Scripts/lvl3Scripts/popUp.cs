@@ -18,6 +18,7 @@ public class popUp : MonoBehaviour
         if(openCupboard != null)
         {
             openCupboard.SetActive(true);
+           
         }
     }
 }

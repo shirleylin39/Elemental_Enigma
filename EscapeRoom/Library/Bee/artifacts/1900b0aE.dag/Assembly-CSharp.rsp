@@ -383,7 +383,6 @@
 "Assets/Scripts/lvl3Scripts/closePopUp.cs"
 "Assets/Scripts/lvl3Scripts/cupboardOpen.cs"
 "Assets/Scripts/lvl3Scripts/furnaceSmoke.cs"
-"Assets/Scripts/lvl3Scripts/groupCupboard.cs"
 "Assets/Scripts/lvl3Scripts/popUp.cs"
 "Assets/Scripts/lvl3Scripts/smokeRender.cs"
 "Assets/Scripts/StartEndScripts/replayButton.cs"
