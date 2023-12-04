@@ -37,7 +37,6 @@ public class dragItem : MonoBehaviour
         {
             transform.position = _slot1.transform.position;
             placed1 = true;
-            // item.SetActive(false);
             Destroy(item);
         }
         else

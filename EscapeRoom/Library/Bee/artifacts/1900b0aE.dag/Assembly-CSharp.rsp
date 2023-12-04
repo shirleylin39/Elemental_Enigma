@@ -385,7 +385,7 @@
 "Assets/Scripts/lvl3Scripts/cupboardOpen.cs"
 "Assets/Scripts/lvl3Scripts/dragItem.cs"
 "Assets/Scripts/lvl3Scripts/dragToAtomizer.cs"
-"Assets/Scripts/lvl3Scripts/furnaceSmoke.cs"
+"Assets/Scripts/lvl3Scripts/dragToFurnace.cs"
 "Assets/Scripts/lvl3Scripts/itemToInventory.cs"
 "Assets/Scripts/lvl3Scripts/popUp.cs"
 "Assets/Scripts/lvl3Scripts/smokeRender.cs"

@@ -23,6 +23,7 @@ public class Countdown : MonoBehaviour
             if(currentTime<0){
                 currentTime=0;
                 atom.SetActive(true);
+                countdown.enabled =false;
 
             }
         }

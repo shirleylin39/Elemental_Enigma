@@ -20,20 +20,6 @@ public class cupboardOpen : MonoBehaviour
         openCupboard.SetActive(false);
     }
 
-    // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
-
-    // private void OnMouseDown()
-    // {
-    //     if (door != null)
-    //     {
-    //         cupboard.SetActive(true);
-    //     }
-    // }
-
      void Update()
     {
         if(placed1)
@@ -61,6 +47,7 @@ public class cupboardOpen : MonoBehaviour
         {
             transform.position = _slot1.transform.position;
             placed1 = true;
+            Debug.Log("hi");
             item.SetActive(false);
             door.SetActive(false);
             cupboard.SetActive(true);
