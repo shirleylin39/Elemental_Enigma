@@ -87,6 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\lvl3Scripts\cupboardOpen.cs" />
+    <Compile Include="Assets\Scripts\lvl3Scripts\dragToAtomizer.cs" />
     <Compile Include="Assets\Scripts\generalScripts\CameraMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\lvl3Scripts\ventOpen.cs" />
@@ -102,6 +103,8 @@
     <Compile Include="Assets\Scripts\generalScripts\popUpMiddle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\generalScripts\oracleClick.cs" />
+    <Compile Include="Assets\Scripts\lvl3Scripts\atomizerCollect.cs" />
+    <Compile Include="Assets\Scripts\lvl3Scripts\Countdown.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\lvl3Scripts\popUp.cs" />
   </ItemGroup>
