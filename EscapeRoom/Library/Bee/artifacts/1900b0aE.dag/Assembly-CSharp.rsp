@@ -379,7 +379,6 @@
 "Assets/Scripts/generalScripts/popUpMiddle.cs"
 "Assets/Scripts/generalScripts/SideScrolling.cs"
 "Assets/Scripts/lvl1Scripts/hoodDoor.cs"
-"Assets/Scripts/lvl3Scripts/atomizerCollect.cs"
 "Assets/Scripts/lvl3Scripts/closePopUp.cs"
 "Assets/Scripts/lvl3Scripts/Countdown.cs"
 "Assets/Scripts/lvl3Scripts/cupboardOpen.cs"
