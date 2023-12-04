@@ -323,6 +323,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atom: {fileID: 197475138}
+  atom2: {fileID: 126902363}
+  atom3: {fileID: 1675946631}
+  atom4: {fileID: 836162224}
+  atom5: {fileID: 1340250835}
+  atom6: {fileID: 1229302436}
+  atom7: {fileID: 850636704}
   countdown: {fileID: 589889685}
 --- !u!1 &6412010
 GameObject:
@@ -3934,7 +3940,7 @@ GameObject:
   - component: {fileID: 1206155977}
   - component: {fileID: 1206155976}
   - component: {fileID: 1206155979}
-  - component: {fileID: 1206155978}
+  - component: {fileID: 1206155980}
   m_Layer: 0
   m_Name: CH4O_inventory
   m_TagString: Untagged
@@ -4009,21 +4015,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 200961504}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1206155978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206155975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f37d643babb3d48a605533c2429f4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1206155975}
-  _slot1: {fileID: 1579887272}
-  inventory_slot: {fileID: 775661}
 --- !u!61 &1206155979
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4069,6 +4060,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 1.09}
   m_EdgeRadius: 0
+--- !u!114 &1206155980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206155975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c5a160e7455c646a1fd608bb7da0ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1206155975}
+  timer: {fileID: 589889682}
+  atom1: {fileID: 1282727934}
+  atom2: {fileID: 1902293578}
+  atom3: {fileID: 1548378945}
+  atom4: {fileID: 379827968}
+  atom5: {fileID: 1399703760}
+  atom6: {fileID: 1842816280}
+  _slot1: {fileID: 1579887272}
+  inventory_slot: {fileID: 775661}
 --- !u!1 &1211848977
 GameObject:
   m_ObjectHideFlags: 0

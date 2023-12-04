@@ -383,6 +383,7 @@
 "Assets/Scripts/lvl3Scripts/closePopUp.cs"
 "Assets/Scripts/lvl3Scripts/Countdown.cs"
 "Assets/Scripts/lvl3Scripts/cupboardOpen.cs"
+"Assets/Scripts/lvl3Scripts/dragBottleToAtomizer.cs"
 "Assets/Scripts/lvl3Scripts/dragItem.cs"
 "Assets/Scripts/lvl3Scripts/dragToAtomizer.cs"
 "Assets/Scripts/lvl3Scripts/dragToFurnace.cs"
