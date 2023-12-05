@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class AtomDrag : MonoBehaviour
 {
-    private bool dragging, placed;
+    private bool dragging, placed1, placed2;
     private Vector2 offset, inventoryPos;
-    [SerializeField] GameObject _slot, inventory_slot;
+    [SerializeField] GameObject _slot1, _slot2, inventory_slot;
+    // [SerializeField] GameObject _slot1, inventory_slot;
 
 
     void Update()
     {
-        if(placed)
+        if(placed1)
+        {
+            return;
+        }
+        if(placed2)
         {
             return;
         }
@@ -32,13 +37,26 @@ public class AtomDrag : MonoBehaviour
 
     void OnMouseUp()
     {   
-        if (Vector2.Distance(transform.position, _slot.transform.position) < 1)
+        if (_slot1 != null && Vector2.Distance(transform.position, _slot1.transform.position) < 1)
         {
-            transform.position = _slot.transform.position;
-            placed = true;
-            Destroy(_slot);
+            transform.position = _slot1.transform.position;
+            placed1 = true;
+            Destroy(_slot1);
         }
-        
+        else if (_slot2 != null && Vector2.Distance(transform.position, _slot2.transform.position) < 1)
+        {
+            transform.position = _slot2.transform.position;
+            placed2 = true;
+            Destroy(_slot2); 
+        }
+    
+
+        // if (Vector2.Distance(transform.position, _slot1.transform.position) < 1)
+        // {
+        //     transform.position = _slot1.transform.position;
+        //     placed = true;
+        //     Destroy(_slot1);
+        // }
         else
         {
             dragging = false;
