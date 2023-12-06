@@ -16,8 +16,8 @@ public class dragToFurnace : MonoBehaviour
 
     void Start(){
         smoke.SetActive(false);
-        openFurnace.SetActive(false);
-        key.SetActive(false);
+        // openFurnace.SetActive(false);
+        // key.SetActive(false);
     }
 
     void Update()
@@ -47,8 +47,7 @@ public class dragToFurnace : MonoBehaviour
             transform.position = _slot1.transform.position;
             placed1 = true;
             Destroy(item);
-            smoke.SetActive(true);
-            Invoke("DestroyObject", 0.03f);
+            StartCoroutine(ShowAndHideObject());
             openFurnace.SetActive(true);
             key.SetActive(true);
         }
@@ -59,9 +58,13 @@ public class dragToFurnace : MonoBehaviour
         }    
     }
 
-    void DestroyObject()
+    IEnumerator ShowAndHideObject()
     {
-        Destroy(smoke);
+        smoke.SetActive(true);
+        yield return new WaitForSeconds(2.0f);
+        smoke.SetActive(false);
+        yield return new WaitForSeconds(3.0f);
+        Destroy(smoke.gameObject);
     }
 
     Vector2 GetMousePos()

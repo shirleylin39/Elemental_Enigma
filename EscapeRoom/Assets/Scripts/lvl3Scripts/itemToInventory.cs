@@ -12,7 +12,7 @@ public class itemToInventory : MonoBehaviour
     void Start()
     {
         item.SetActive(true);
-        inventory.SetActive(false);
+        // inventory.SetActive(false);
         item2.SetActive(false);
     }
 
