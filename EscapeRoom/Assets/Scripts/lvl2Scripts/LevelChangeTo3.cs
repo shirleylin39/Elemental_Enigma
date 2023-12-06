@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGame : MonoBehaviour
+public class LevelChangeTo3 : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnMouseDown()
     {
         // Load the next scene by name
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("level3");
     }
 }

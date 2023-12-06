@@ -12,6 +12,5 @@ public class CameraMovement : MonoBehaviour
     {
         transform.position = followInterface.transform.position + new Vector3(0, 0, -10);
     }
-    // Start is called before the first frame update
 
 }
