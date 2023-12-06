@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &429949654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 1260030931}
   - component: {fileID: 1260030930}
   - component: {fileID: 1260030933}
-  - component: {fileID: 1260030932}
+  - component: {fileID: 1260030934}
   m_Layer: 0
   m_Name: srtbtn
   m_TagString: Untagged
@@ -812,7 +812,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 1892db9d783cf4b20834e6f5a9f7da29, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 117439a69bd4f45698dd60319f8d3c5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -838,18 +838,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1399735255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1260030932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260030929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ae256f3525ec4e0ca5889a771e2fc67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1260030933
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -886,7 +874,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.04, y: 3.6}
+    oldSize: {x: 4.64, y: 2.55}
     newSize: {x: 9.04, y: 3.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -895,6 +883,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.04, y: 3.6}
   m_EdgeRadius: 0
+--- !u!114 &1260030934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260030929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a562588d3603f45839746d02df787ad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1399735254
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1399735255
 Transform:
   m_ObjectHideFlags: 0
