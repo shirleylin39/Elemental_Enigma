@@ -55,17 +55,30 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scripts/StartEndScripts/StartGame.cs" />
+=======
+    <Compile Include="Assets/Scripts/StartEndScripts/startButton.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/closePopUp.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/Countdown2.cs" />
+>>>>>>> Level-3
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/Graphics/StartEnd/UI/Scripts/Scroller.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Scripts/lvl2Scripts/CLose_Drawer.cs" />
+=======
+    <Compile Include="Assets/Scripts/lvl3Scripts/itemToInventory.cs" />
+>>>>>>> Level-3
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/AtomDrag.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scripts/lvl1Scripts/LevelChange.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -74,6 +87,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/dragToFurnace.cs" />
     <Compile Include="Assets/Scripts/generalScripts/SideScrolling.cs" />
     <Compile Include="Assets/Graphics/StartEnd/BackgroundScrolling.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
@@ -84,31 +98,52 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/GeTurkey.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/Dissapper inventory.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/smokeRender.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Scripts/lvl2Scripts/Door_open.cs" />
+=======
+    <Compile Include="Assets/Scripts/lvl3Scripts/cupboardOpen.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/dragToAtomizer.cs" />
+>>>>>>> Level-3
     <Compile Include="Assets/Scripts/generalScripts/CameraMovement.cs" />
     <Compile Include="Assets/Scripts/lvl2Scripts/Fire_extringuisher.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/ventOpen.cs" />
     <Compile Include="Assets/Scripts/generalScripts/addToInventory.cs" />
     <Compile Include="Assets/Scripts/StartEndScripts/replayButton.cs" />
     <Compile Include="Assets/Scripts/lvl2Scripts/Drawer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Scripts/lvl2Scripts/Sofa_Lift.cs" />
+=======
+    <Compile Include="Assets/Scripts/lvl3Scripts/dragItem.cs" />
+>>>>>>> Level-3
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Scripts/lvl2Scripts/AtomSlot.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/generalScripts/popUpMiddle.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Graphics/StartEnd/UI/Clicky_button.cs" />
     <Compile Include="Assets/Scripts/lvl2Scripts/Input_atoms.cs" />
+=======
+    <Compile Include="Assets/Scripts/lvl3Scripts/Input_atoms.cs" />
+>>>>>>> Level-3
     <Compile Include="Assets/Scripts/generalScripts/oracleClick.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/Countdown.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/Door_open.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/popUp.cs" />
+    <Compile Include="Assets/Scripts/lvl3Scripts/dragBottleToAtomizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
