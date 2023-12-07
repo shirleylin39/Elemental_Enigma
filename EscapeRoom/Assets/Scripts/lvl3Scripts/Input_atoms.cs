@@ -5,7 +5,7 @@ using UnityEngine;
 public class Input_atoms : MonoBehaviour
 {
 
-    public GameObject input_slots, fire_ex, door_open;
+    public GameObject input_slots, fire_ex, door_open, confirm;
     // Start is called before the first frame update
     void Start()
     {

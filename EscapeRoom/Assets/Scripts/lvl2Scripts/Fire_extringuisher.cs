@@ -9,7 +9,8 @@ public class Fire_extringuisher : MonoBehaviour
     
     void OnMouseDown()
     {
-        if(inv1 == null && inv2 == null && inv3 == null)
+        if(a1.GetComponent<BoxCollider>()==null && a2.GetComponent<BoxCollider>()==null 
+        && a3.GetComponent<BoxCollider>()==null)
         {
             Destroy(a1);
             Destroy(a2);
