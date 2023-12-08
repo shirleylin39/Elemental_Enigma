@@ -15,6 +15,7 @@
 /Logs
 /MemoryCaptures
 /UserData
+.DS_Store
 
 # User-specific files
 /*.userprefs
