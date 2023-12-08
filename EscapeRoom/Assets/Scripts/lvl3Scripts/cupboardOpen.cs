@@ -47,7 +47,6 @@ public class cupboardOpen : MonoBehaviour
         {
             transform.position = _slot1.transform.position;
             placed1 = true;
-            Debug.Log("hi");
             item.SetActive(false);
             door.SetActive(false);
             cupboard.SetActive(true);

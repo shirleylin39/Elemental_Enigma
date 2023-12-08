@@ -8,6 +8,7 @@ public class itemToInventory : MonoBehaviour
     public GameObject item;
     public GameObject item2;
     public GameObject inventory;
+    [SerializeField] private AudioSource addItem;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class itemToInventory : MonoBehaviour
 
     void OnMouseDown()
     {
+        addItem.Play();
         if(item != null)
         {
             inventory.SetActive(true);

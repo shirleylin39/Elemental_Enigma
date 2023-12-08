@@ -6,7 +6,7 @@ public class AtomDrag : MonoBehaviour
 {
     private bool dragging, placed1, placed2, placed3, placed4;
     private Vector2 offset, inventoryPos;
-    [SerializeField] GameObject _slot1, _slot2, _slot3, _slot4, inventory_slot;
+    [SerializeField] GameObject _slot1, _slot2, _slot3, _slot4, inventory_slot, atom;
     // [SerializeField] GameObject _slot1, inventory_slot;
 
 
@@ -44,30 +44,34 @@ public class AtomDrag : MonoBehaviour
     }
 
     void OnMouseUp()
-    {   
+    {  
+        BoxCollider boxCollider = atom.GetComponent<BoxCollider>();
         if (_slot1 != null && Vector2.Distance(transform.position, _slot1.transform.position) < 1)
         {
             transform.position = _slot1.transform.position;
             placed1 = true;
-            Destroy(_slot1);
+            Destroy(boxCollider);
         }
         else if (_slot2 != null && Vector2.Distance(transform.position, _slot2.transform.position) < 1)
         {
+            BoxCollider boxCollider2 = _slot2.GetComponent<BoxCollider>();
             transform.position = _slot2.transform.position;
             placed2 = true;
-            Destroy(_slot2); 
+            Destroy(boxCollider);
         }
         else if (_slot3 != null && Vector2.Distance(transform.position, _slot3.transform.position) < 1)
         {
+            BoxCollider boxCollider3 = _slot3.GetComponent<BoxCollider>();
             transform.position = _slot3.transform.position;
             placed3 = true;
-            Destroy(_slot3);
+            Destroy(boxCollider);
         }
         else if (_slot4 != null && Vector2.Distance(transform.position, _slot4.transform.position) < 1)
         {
+            BoxCollider boxCollider4 = _slot4.GetComponent<BoxCollider>();
             transform.position = _slot4.transform.position;
             placed4 = true;
-            Destroy(_slot4);
+            Destroy(boxCollider);
         }
 
         // if (Vector2.Distance(transform.position, _slot1.transform.position) < 1)
