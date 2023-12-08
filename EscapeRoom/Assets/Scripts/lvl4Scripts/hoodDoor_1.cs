@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class hoodDoor : MonoBehaviour
+public class hoodDoor_lvl4 : MonoBehaviour
 {
     public GameObject door;
     public GameObject tankO;
+    public GameObject tankCO;
     public GameObject atom;
 
     // Start is called before the first frame update
@@ -13,6 +14,7 @@ public class hoodDoor : MonoBehaviour
     {
         door.SetActive(false);
         tankO.SetActive(false);
+        tankCO.SetActive(false);
         atom.SetActive(false);
     }
 
@@ -34,5 +36,9 @@ public class hoodDoor : MonoBehaviour
             tankO.SetActive(true);
         }
 
+        if (tankCO != null)
+        {
+            tankCO.SetActive(true);
+        }
     }
 }
