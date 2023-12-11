@@ -5,19 +5,20 @@ using System.Collections;
 
 public class dragToFurnace : MonoBehaviour
 {
-    private bool dragging, placed1, smokeOn;
+    private bool dragging, placed1;
     private Vector2 offset, inventoryPos;
-    public GameObject item;
-    public GameObject openFurnace;
+    public GameObject item, fe_replace;
+    // public GameObject openFurnace;
     public GameObject key;
-    public GameObject smoke;
+    // public ParticleSystem smoke;
     [SerializeField] GameObject _slot1, inventory_slot;
 
 
-    void Start(){
-        smoke.SetActive(false);
+    void Start()
+    {
+        // smoke.Stop();
         // openFurnace.SetActive(false);
-        // key.SetActive(false);
+        key.SetActive(false);
     }
 
     void Update()
@@ -47,9 +48,9 @@ public class dragToFurnace : MonoBehaviour
             transform.position = _slot1.transform.position;
             placed1 = true;
             Destroy(item);
-            StartCoroutine(ShowAndHideObject());
-            openFurnace.SetActive(true);
-            key.SetActive(true);
+            fe_replace.SetActive(true);
+            // openFurnace.SetActive(true);
+            // key.SetActive(true);
         }
         else
         {
@@ -58,40 +59,22 @@ public class dragToFurnace : MonoBehaviour
         }    
     }
 
-    IEnumerator ShowAndHideObject()
-    {
-        smoke.SetActive(true);
-        yield return new WaitForSeconds(2.0f);
-        smoke.SetActive(false);
-        yield return new WaitForSeconds(3.0f);
-        Destroy(smoke.gameObject);
-    }
+    // void StartSmokeEffect()
+    // {
+    //     smoke.Play();
+    //     Invoke("StopSmokeEffect", 3f);
+    // }
+
+    // void StopSmokeEffect()
+    // {
+    //     smoke.Stop();
+    //     openFurnace.SetActive(true);
+    //     key.SetActive(true);
+    // }
 
     Vector2 GetMousePos()
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
-    // private IEnumerator CallFunctions(){
-    //     dragSuccess();    
-    //     yield return new WaitForSeconds(3f);
-    //     smoke.SetActive(false);
-    //     openFurnace.SetActive(true);
-    //     key.SetActive(true);
-    // }
-
-    // private void dragSuccess(){
-    //      if (_slot1 != null && Vector2.Distance(transform.position, _slot1.transform.position) < 1)
-    //     {
-    //         transform.position = _slot1.transform.position;
-    //         placed1 = true;
-    //         Destroy(item);
-    //         smoke.SetActive(true);
-    //         Invoke(Destroy(smoke), 3.0f);
-    //     }
-    //     else
-    //     {
-    //         dragging = false;
-    //         transform.position = inventory_slot.transform.position;
-    //     }
-    // }
+ 
 }
