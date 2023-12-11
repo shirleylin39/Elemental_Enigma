@@ -9,6 +9,6 @@ public class StartGame : MonoBehaviour
     public void OnMouseDown()
     {
         // Load the next scene by name
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("StoryScene");
     }
 }
