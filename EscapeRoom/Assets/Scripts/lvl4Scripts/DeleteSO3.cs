@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeleteSO3 : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] public GameObject so3;
+    [SerializeField] public GameObject so3,so2;
     void Start()
     {
         
@@ -15,5 +15,6 @@ public class DeleteSO3 : MonoBehaviour
     void OnMouseDown() 
     {
         Destroy(so3);   
+        Destroy(so2);
     }
 }
