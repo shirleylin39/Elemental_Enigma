@@ -241,7 +241,7 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 1
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4806,7 +4806,7 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 1
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -5122,8 +5122,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9832e10b7cec84637a86c9d1fc28d0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: {fileID: 0}
   hint1: {fileID: 0}
+  hint2: {fileID: 0}
+  hint3: {fileID: 0}
+  hint4: {fileID: 0}
+  hint5: {fileID: 0}
+  hint6: {fileID: 0}
+  hint7: {fileID: 0}
+  hint8: {fileID: 0}
+  hint9: {fileID: 0}
+  hint10: {fileID: 0}
+  hint11: {fileID: 0}
+  hint12: {fileID: 0}
+  hint13: {fileID: 0}
+  hint14: {fileID: 0}
+  hint15: {fileID: 0}
+  hint16: {fileID: 0}
+  hint17: {fileID: 0}
+  hint18: {fileID: 0}
+  hint19: {fileID: 0}
 --- !u!61 &1424607021
 BoxCollider2D:
   m_ObjectHideFlags: 0
