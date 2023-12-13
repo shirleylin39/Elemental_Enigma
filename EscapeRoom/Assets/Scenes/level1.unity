@@ -241,7 +241,7 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 1
+  m_LayerOverridePriority: 2
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -268,7 +268,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.37}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!1 &86278552
 GameObject:
@@ -572,7 +572,6 @@ GameObject:
   m_Component:
   - component: {fileID: 279446266}
   - component: {fileID: 279446265}
-  - component: {fileID: 279446267}
   m_Layer: 0
   m_Name: BGM
   m_TagString: Untagged
@@ -691,18 +690,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &279446267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279446264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a63a382d40884ed479405dbeede1379c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &281506188
 GameObject:
   m_ObjectHideFlags: 0
