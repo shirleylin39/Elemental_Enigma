@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class oracleClick4 : MonoBehaviour
+public class oracleClickLv1 : MonoBehaviour
 {
     public GameObject hint1;
     public GameObject hint2;
