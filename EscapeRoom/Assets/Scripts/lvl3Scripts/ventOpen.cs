@@ -7,7 +7,7 @@ public class ventOpen : MonoBehaviour
     public GameObject vent;
     public GameObject piece;
     public GameObject atom;
-    [SerializeField] private AudioSource itemAdd;
+    // [SerializeField] private AudioSource itemAdd;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class ventOpen : MonoBehaviour
 
     private void OnMouseDown()
     {
-        itemAdd.Play();
+        // itemAdd.Play();
         if (vent != null)
         {
             vent.SetActive(true);
