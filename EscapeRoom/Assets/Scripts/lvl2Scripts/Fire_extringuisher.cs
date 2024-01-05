@@ -5,12 +5,11 @@ using UnityEngine;
 public class Fire_extringuisher : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] GameObject inv1, inv2, inv3, fire_ex, atom_slots, a1, a2, a3; 
+    [SerializeField] GameObject inv1, inv2, inv3, fire_ex, atom_slots, a1, a2, a3, circle1,circle2,circle3; 
     
     void OnMouseDown()
     {
-        if(a1.GetComponent<BoxCollider>()==null && a2.GetComponent<BoxCollider>()==null 
-        && a3.GetComponent<BoxCollider>()==null)
+        if(circle1==null && circle2==null && circle3==null)
         {
             Destroy(a1);
             Destroy(a2);

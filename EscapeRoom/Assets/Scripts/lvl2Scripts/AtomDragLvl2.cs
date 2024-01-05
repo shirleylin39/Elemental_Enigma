@@ -6,7 +6,7 @@ public class AtomDragLvl2 : MonoBehaviour
 {
     private bool dragging, placed1, placed2;
     private Vector2 offset, inventoryPos;
-    [SerializeField] GameObject _slot1, _slot2, inventory_slot,atom;
+    [SerializeField] GameObject _slot1, _slot2, inventory_slot,atom,circle1, circle3;
     // [SerializeField] GameObject _slot1, inventory_slot;
 
 
@@ -36,18 +36,18 @@ public class AtomDragLvl2 : MonoBehaviour
     }
 
     void OnMouseUp()
-    {   BoxCollider boxCollider = atom.GetComponent<BoxCollider>();
+    {   
         if (_slot1 != null && Vector2.Distance(transform.position, _slot1.transform.position) < 1)
         {
             transform.position = _slot1.transform.position;
             placed1 = true;
-            Destroy(boxCollider);
+            Destroy(circle1);
         }
         else if (_slot2 != null && Vector2.Distance(transform.position, _slot2.transform.position) < 1)
         {
             transform.position = _slot2.transform.position;
             placed2 = true;
-            Destroy(boxCollider);
+            Destroy(circle3);
         }
     
 
