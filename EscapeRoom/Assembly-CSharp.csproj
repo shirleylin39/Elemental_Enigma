@@ -163,6 +163,7 @@
     <Compile Include="Assets\Scripts\lvl3Scripts\popUp.cs" />
     <Compile Include="Assets\Scripts\lvl3Scripts\dragBottleToAtomizer.cs" />
     <Compile Include="Assets\Scripts\lvl3Scripts\SmokeRemove.cs" />
+    <Compile Include="Assets\Scripts\lvl3Scripts\CloseFurnace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

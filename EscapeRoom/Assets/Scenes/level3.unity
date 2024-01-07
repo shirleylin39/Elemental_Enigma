@@ -9586,8 +9586,8 @@ GameObject:
   - component: {fileID: 847081751}
   - component: {fileID: 847081750}
   - component: {fileID: 847081752}
-  - component: {fileID: 847081754}
   - component: {fileID: 847081755}
+  - component: {fileID: 847081756}
   m_Layer: 0
   m_Name: furnace1
   m_TagString: Untagged
@@ -9707,21 +9707,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.47, y: 5.22}
   m_EdgeRadius: 0
---- !u!114 &847081754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847081749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e062f7f332e5348ca8b9128c8c91271a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: {fileID: 1522917555}
-  openFurnace: {fileID: 1386477078}
-  a: {fileID: 749683390}
 --- !u!114 &847081755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9736,6 +9721,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 1386477078}
   atom: {fileID: 0}
+--- !u!114 &847081756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847081749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e062f7f332e5348ca8b9128c8c91271a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 1522917555}
+  openFurnace: {fileID: 1386477078}
+  a: {fileID: 1512480760}
+  closeFurnace: {fileID: 0}
 --- !u!1 &848930790
 GameObject:
   m_ObjectHideFlags: 0
@@ -12298,7 +12299,7 @@ GameObject:
   - component: {fileID: 1386477079}
   - component: {fileID: 1386477081}
   - component: {fileID: 1386477083}
-  - component: {fileID: 1386477082}
+  - component: {fileID: 1386477084}
   m_Layer: 0
   m_Name: furnace_open
   m_TagString: Untagged
@@ -12386,27 +12387,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   a: {fileID: 1386477078}
---- !u!114 &1386477082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386477078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428e6abfcb923478480d6f775ddf6c2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OpenFurnace: {fileID: 1386477078}
-  closeFurnace: {fileID: 847081749}
-  a1: {fileID: 749683390}
-  a2: {fileID: 0}
-  a3: {fileID: 0}
-  a1_replace: {fileID: 1512480760}
-  a2_replace: {fileID: 0}
-  a3_replace: {fileID: 0}
-  smokeEffect: {fileID: 668254055}
 --- !u!61 &1386477083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12452,6 +12432,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.95, y: 5.7}
   m_EdgeRadius: 0
+--- !u!114 &1386477084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386477078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7366e64016e0bcc4ebee9cc673af26e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OpenFurnace: {fileID: 1386477078}
+  closeFurnace: {fileID: 847081749}
+  a1: {fileID: 749683390}
+  a1_replace: {fileID: 1512480760}
+  smokeEffect: {fileID: 668254055}
 --- !u!1 &1391741861
 GameObject:
   m_ObjectHideFlags: 0
