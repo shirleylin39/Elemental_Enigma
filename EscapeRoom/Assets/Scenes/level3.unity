@@ -9722,7 +9722,6 @@ MonoBehaviour:
   key: {fileID: 1522917555}
   openFurnace: {fileID: 1386477078}
   a: {fileID: 749683390}
-  closeFurnace: {fileID: 847081749}
 --- !u!114 &847081755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15192,6 +15191,7 @@ GameObject:
   - component: {fileID: 1902293579}
   - component: {fileID: 1902293581}
   - component: {fileID: 1902293582}
+  - component: {fileID: 1902293583}
   m_Layer: 0
   m_Name: Atom O
   m_TagString: Untagged
@@ -15295,12 +15295,57 @@ MonoBehaviour:
   _slot2: {fileID: 0}
   _slot3: {fileID: 0}
   _slot4: {fileID: 0}
-  inventory_slot: {fileID: 0}
-  atom: {fileID: 0}
+  inventory_slot: {fileID: 2037216500}
+  atom: {fileID: 1902293578}
   circle1: {fileID: 0}
   circle2: {fileID: 0}
   circle3: {fileID: 0}
   circle4: {fileID: 0}
+--- !u!61 &1902293583
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902293578}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.01, y: 2.02}
+    newSize: {x: 2.01, y: 2.02}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.01, y: 2.02}
+  m_EdgeRadius: 0
 --- !u!1 &1957007985
 GameObject:
   m_ObjectHideFlags: 0

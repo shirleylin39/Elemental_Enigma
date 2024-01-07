@@ -261,9 +261,9 @@ MonoBehaviour:
   a1: {fileID: 670729459}
   a2: {fileID: 1103882223}
   a3: {fileID: 1781940151}
-  circle1: {fileID: 0}
-  circle2: {fileID: 0}
-  circle3: {fileID: 0}
+  circle1: {fileID: 1898013593}
+  circle2: {fileID: 133475814}
+  circle3: {fileID: 86114136}
 --- !u!61 &47155401
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7155,7 +7155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1753948390
 SpriteRenderer:
   m_ObjectHideFlags: 0
