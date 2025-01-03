@@ -72,24 +72,24 @@ If you successfully escaped, celebrate your success with an end scene and hidden
 ## Game Interface
 The Elemental Enigma interface provides an intuitive and engaging experience to immerse players in the puzzle-solving adventure. Here's a detailed breakdown of its main components:
 
-1. Game Controls
+### 1. Game Controls
 Use the left arrow and right arrow keys to look across the room and explore the environment.
 Click on objects in the room to interact with them and collect items.
 
-2. Inventory
+### 2. Inventory
 The inventory is your primary tool for managing collectable items as you progress through the game.
 Collect items by clicking on them during gameplay. Once collected, they are stored in your inventory.
 Drag and drop items from the inventory to interact with various objects or environments in the game.
 Efficient inventory management is critical to successfully solving puzzles and escaping the laboratories.
 
-3. Oracle
+### 3. Oracle
 Need help? The Oracle provides random hints to guide you through the challenges.
 Access the Oracle by clicking the question mark button at the bottom right corner of the screen.
 While the Oracle gives helpful suggestions, it doesn’t reveal direct answers—you’ll need to think critically to escape.
 
 ![Interface](images/Man_Inventory.png)
 
-4. Menu
+### 4. Menu
 Located at the bottom left corner, the menu provides various options to enhance your gameplay experience:
 Continue Playing: Resume from your current progress.
 - Exit: Leave the game at any time.
